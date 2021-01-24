@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "londontransitapp",
+    "slug": "londontransitapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./default_assets/icon.png",
+    "splash": {
+      "image": "./default_assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./default_assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./default_assets/favicon.png"
+    },
+    "description": ""
+  }
+}
