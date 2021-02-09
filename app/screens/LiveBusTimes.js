@@ -13,7 +13,7 @@ function BusTime(props) {
                 {props.route}
             </Text>
             <Text style={styles.routeDirectionText}>
-                {props.direction}
+                {props.direction.toUpperCase()}
             </Text>
             <Text style={styles.timeText}>
                 {FormatTime(props.realTimeSPC, props.realTime)}

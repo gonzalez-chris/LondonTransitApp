@@ -171,9 +171,11 @@ const styles = StyleSheet.create({
     stopIdText: {
         fontSize: 22,
         color: colors.black,
+        // fontWeight: "500",
     },
     stopNameText: {
         fontSize: 15,
+        width: "90%",
     },
 
     noResultsText: {
