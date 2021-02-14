@@ -4,8 +4,9 @@ This app was created using [Expo](https://play.google.com/store/apps/details?id=
 
 ### Screenshots
 
-(Will Be Added Soon)
+<img src = "screenshots/iPhone8_search_%20results1.png" width=334/>
+<img src = "screenshots/iPhone8_bus_times1.png" width=334/>
 
 ### Android QR Code
 
-(Will Be Added Soon)
+<img src = "screenshots/QR%20Code.png"/>
