@@ -5,10 +5,13 @@ import LiveBusTimes from './app/screens/LiveBusTimes';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { colors } from "./app/classes/AppColors";
+import * as Permissions from 'expo-permissions';
 
 const Stack = createStackNavigator();
 
 export default function App() {
+  const [permission, askPermission, getPermission] = Permissions.usePermissions(Permissions.LOCATION, { ask: true });
+
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="SearchForBusStop">
