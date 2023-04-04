@@ -1,4 +1,4 @@
-<b>Note:</b> This application has not been updated in two years and so the version of Expo it runs on is now unsupported. The app is being rewritten in pure React Native (without Expo) so that it can potentially be released on the app store one day. Other improvements are that the rewritten version will connect with [london_transit_backend](https://github.com/gonzalez-chris/transit_app_backend) and the code structure and organization will be significantly improved.
+***Please Note: This application has not been updated in two years and so the version of Expo it runs on is now unsupported. The app is being rewritten in pure React Native (without Expo) to better support a potential App Store release. Other improvements are that the rewritten version will connect with [london_transit_backend](https://github.com/gonzalez-chris/transit_app_backend) and that the code structure and file organization will be significantly improved from the state of this repository.***
 
 ## Real-Time London Transit App
 
